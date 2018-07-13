@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	background-color: #f5f8fa
+}
+
+.content {
+	width: 100%;
+	height: auto;
+	color: #888;
+}
+
+.head {
+	height: auto;
+	width: 100%;
+	float: left;
+	font-family: "微软雅黑";
+	background-color: white;
+	border-bottom: 3px solid #EEE;
+}
+
+.lefthead {
+	display: inline-block;
+	line-height: 3rem;
+	float: left;
+	font-size: 1.3rem;
+	padding-left: 20%;
+}
+
+.righthead {
+	float: right;
+	line-height: 3rem;
+	font-size: 1.3rem;
+	padding-right: 20%;
+	width: 20%;
+}
+
+.righthead span {
+	float: right;
+	display: block;
+	height: 100%;
+	width: 25%;
+}
+
+.declear {
+	clear: both;
+}
+
+.main {
+	height: auto;
+	width: 100%;
+}
+
+.form {
+	margin: 0 20% 0 20%;
+	height: auto;
+	width: 60%;
+	padding-top: 2%;
+	float: left;
+}
+
+.form span {
+	display: block;
+	height: auto;
+	width: 100%;
+	float: left;
+	font-size: 1.5rem;
+	border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+	padding: .75rem 1.25rem;
+	margin-bottom: 0;
+	background-color: rgba(0, 0, 0, .03);
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.form form {
+	display: block;
+	height: auto;
+	width: 100%;
+	float: left;
+	padding: 1.25rem;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: .25rem;
+}
+
+.input {
+	height: auto;
+	width: 100%;
+	float: right;
+	margin-top: 2%;
+}
+
+.input a {
+	display: block;
+	line-height: 2rem;
+	font-size: 1.3rem;
+	float: right;
+	margin-right: 2%;
+}
+
+.input input {
+	display: block;
+	line-height: 2rem;
+	font-size: 1.3rem;
+	float: right;
+	margin-right: 36%;
+}
+
+.submit {
+	border-radius: .25rem;
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+.remind
+{
+	display: block;
+	width: 50%;
+	height: auto;
+	float: right;
+	color: rgb(254,57,101);
+}

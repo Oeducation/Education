@@ -1,0 +1,94 @@
+@charset "UTF-8";
+#bg {  
+    text-align: center;  
+    margin:0 auto;  
+    width: 80%;  
+    height: 100px;  
+    /* background-image: url("../images/bg.jpg"); */  
+}  
+#bg a{
+	color: #777;
+	line-height: 100%;
+	margin-top: 5%;
+	font-family: "微软雅黑";
+	font-size: 100%;
+	display: block;
+	text-decoration: none;
+	float: right;
+	padding-right: 2%;
+}
+#bt {  
+    margin:0 auto;         /* 水平居中 */   
+    width: 80%;  
+    height: 8%;  
+}  
+  
+h2 {  
+	font-family: "微软雅黑";
+    float: left;           /* 水平显示,否则竖直显示 */  
+    margin-top: 0%;       /* 置顶 */  
+    margin-left: 1%;
+    margin-bottom: 0;  
+    width: 18%;  
+    background-color: #eee;  
+    height: 47%;  
+    font-size: 130%;  
+    text-align: center;  
+    padding-top: 1%;  
+}  
+  
+a {  
+    text-decoration: none;   
+}  
+  
+a:hover {  
+    color: black;  
+}  
+  
+h2:hover {  
+    background-color: #0F0;  
+}  
+  
+#main {  
+    margin:0 auto;         /* 水平居中 */  
+    margin-top: 1%;  
+    width: 80%;  
+    height: 60%;      
+    background-color: #E6E6FA;  
+  
+}  
+  
+#left {  
+    float: left;  
+    margin-left: 2%;  
+    margin-top: 1%;  
+    width: 40%;  
+    height: 90%;  
+    background-color: #9ACD32;  
+}  
+  
+#right {  
+    float: left;  
+    margin-left: 2%;  
+    margin-top: 1%;  
+    width: 50%;  
+    height: 90%;  
+    background-color: #BFEFFF;  
+}  
+  
+#footer {  
+    margin:0 auto;         /* 水平居中 */  
+    margin-top: 10px;  
+    width: 80%;  
+    height: 50px;  
+    background-color: #8B2500;  
+}  
+  
+#main2 {  
+    margin:0 auto;         /* 水平居中 */  
+    margin-top: 10px;  
+    width: 80%;  
+    height: 60%;      
+    background-color: #F00;  
+  
+}

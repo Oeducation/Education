@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="938" started-at="2018-03-26T14:36:25Z" finished-at="2018-03-26T14:36:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="938" started-at="2018-03-26T14:36:25Z" finished-at="2018-03-26T14:36:26Z">
+      <class name="priv.xzd.test.user.service.UserServiceTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="8" started-at="2018-03-26T22:36:25Z" finished-at="2018-03-26T22:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="584" started-at="2018-03-26T22:36:25Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-03-26T22:36:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="208" started-at="2018-03-26T22:36:25Z" finished-at="2018-03-26T22:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void priv.xzd.test.user.service.UserServiceTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="hasMatchUser()[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="hasMatchUser" duration-ms="122" started-at="2018-03-26T22:36:25Z" finished-at="2018-03-26T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasMatchUser -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="5" started-at="2018-03-26T22:36:26Z" finished-at="2018-03-26T22:36:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void priv.xzd.test.user.service.UserServiceTest.hasMatchUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:priv.xzd.test.user.service.UserServiceTest@3d3fcdb0]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-03-26T22:36:26Z" finished-at="2018-03-26T22:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- priv.xzd.test.user.service.UserServiceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
